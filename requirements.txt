@@ -1,0 +1,2 @@
+# Use system packages only - no external dependencies required
+# The application will run with Python standard library
