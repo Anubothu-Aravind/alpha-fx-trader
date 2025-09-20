@@ -1,0 +1,52 @@
+{
+  "name": "alphafx-trader-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AlphaFX Trader Frontend - Real-time FX trading dashboard",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.17.0",
+    "axios": "^1.6.0",
+    "recharts": "^2.8.0",
+    "antd": "^5.12.0",
+    "@ant-design/icons": "^5.2.6",
+    "moment": "^2.29.4",
+    "socket.io-client": "^4.7.4",
+    "styled-components": "^6.1.1",
+    "react-query": "^3.39.3",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@types/lodash": "^4.14.202",
+    "@vitejs/plugin-react": "^4.1.1",
+    "vite": "^4.5.0",
+    "typescript": "^5.2.2",
+    "eslint": "^8.53.0",
+    "eslint-plugin-react": "^7.33.2",
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "@typescript-eslint/parser": "^6.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": ".",
+  "proxy": "http://localhost:8000"
+}
